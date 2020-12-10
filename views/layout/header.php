@@ -1,52 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>subastas.com</title>
-    <link rel="stylesheet" href="./public/css/main.css">
-    <link rel="stylesheet" href="./public/css/index.css">
-    <link rel="stylesheet" href="<?= base_url ?>assets/bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
-    <script src="./public/js/menu.js" defer></script>
-</head>
-
-<body>
-    <header>
-        
-        <div class="logo"><img src="/public/assets/img/logo.PNG" alt=""></div>
-        
-        <ul class="menu_items">
-            <li>
-                <a href="./index.html">Inicio</a>
-                <div class="Linea"></div>
-            </li>
-            <li><a href="#">Categorias</a></li>
-            <li><a href="./subastas.html">Subastas</a></li>
-            <li><a href="./ventas.html">Ventas</a></li>
-            <li> <a href="./login.html">Login</a></li>
-            <li><a href="./Registrar.html">Registrar</a></li>
-
-            <li><a href="./carrito.html"><i class="fas fa-shopping-bag"></i></a></li>
-        </ul>
-        <div class="menu_bar"><i class="fas fa-bars"></i></div>
-
-    </header>
-    <main>
-        <section>
-            <div class="banner">
-                <img src="./public/assets/img/laptop-banner.png" alt="banner shop">
-            </div>
-        </section>
-        <section class="products">
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="es">
     <head> 
         <meta charset="utf-8">
         <link rel="stylesheet" href="<?= base_url ?>assets/bootstrap/css/bootstrap.css" />
@@ -60,7 +13,7 @@
     </head>
     <body>
         <div id="container">
-            header 
+            <!-- header --->
             <header id ="header"> 
                 <div id="logo">
                     <img src="<?= base_url ?>assets/img/logo.jpg" alt="cyberShop">
@@ -72,7 +25,7 @@
             </header>
 
 
-            menu    
+            <!-- menu --->            
                 
                 <nav id="menu" >
                     <ul class="nav">
@@ -125,6 +78,6 @@
 
             
 
-         lateral 
+            <!-- lateral --->
 
-        <div id="content"> -->
+        <div id="content">
