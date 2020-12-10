@@ -362,9 +362,7 @@ button{
     width: 30%;
     float:left;
     
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 30px;
+    margin: 30px 10px 30px 10px;
     text-align: center;
 }
 
