@@ -57,7 +57,7 @@ class categoriasController{
             $categoria->setNombre($_POST['nombre']);
             $save = $categoria->save();
         }
-        echo "<script> location.href='http://localhost/proyecto-poo/categorias/index'; </script>";
+        echo "<script> location.href='http://localhost/web/categorias/index'; </script>";
     }
 
 }

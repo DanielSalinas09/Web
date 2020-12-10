@@ -112,7 +112,7 @@ class productosController{
         } else {
             $_SESSION['producto'] = "failed";
         }
-        echo "<script> location.href='http://localhost/proyecto-poo/productos/gestion&page=1'; </script>";
+        echo "<script> location.href='http://localhost/web/productos/gestion&page=1'; </script>";
     }
 
     public function editar() {
@@ -128,7 +128,7 @@ class productosController{
 
             require_once 'views/producto/crear.php';
         } else {
-            echo "<script> location.href='http://localhost/proyecto-poo/productos/gestion&page=1'; </script>";
+            echo "<script> location.href='http://localhost/web/productos/gestion&page=1'; </script>";
         }
     }
 
@@ -147,7 +147,7 @@ class productosController{
         } else {
             $_SESSION['delete'] = 'failed';
         }
-        echo "<script> location.href='http://localhost/proyecto-poo/productos/gestion&page=1'; </script>";
+        echo "<script> location.href='http://localhost/web/productos/gestion&page=1'; </script>";
     }
 
     public function agotado() {

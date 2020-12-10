@@ -100,10 +100,10 @@ class pedidosController {
                 }
             }
 
-            echo "<script> location.href='http://localhost/proyecto-poo/pedidos/confirmado'; </script>";
+            echo "<script> location.href='http://localhost/web/pedidos/confirmado'; </script>";
         } else {
             //redirigir al index
-            echo "<script> location.href='http://localhost/proyecto-poo/producto/index'; </script>";
+            echo "<script> location.href='http://localhost/web/producto/index'; </script>";
         }
     }
 
@@ -201,7 +201,7 @@ class pedidosController {
             $productos = $pedido_productos->getProdictosByPedidos($id);
             require_once 'views/pedido/detalle.php';
         } else {
-            echo "<script> location.href='http://localhost/proyecto-poo/pedidos/misPedidos'; </script>";
+            echo "<script> location.href='http://localhost/web/pedidos/misPedidos'; </script>";
         }
     }
 
@@ -232,9 +232,9 @@ class pedidosController {
             $pedido->setEstado($estado);
             $pedido->edit();
 
-            echo "<script> location.href='http://localhost/proyecto-poo/pedidos/detalle&id={$id}'; </script>";
+            echo "<script> location.href='http://localhost/web/pedidos/detalle&id={$id}'; </script>";
         } else {
-            echo "<script> location.href='http://localhost/proyecto-poo/productos/index'; </script>";
+            echo "<script> location.href='http://localhost/web/productos/index'; </script>";
         }
     }
 

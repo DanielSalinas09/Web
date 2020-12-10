@@ -47,7 +47,7 @@ class ArmaPcController {
 
             require_once 'views/ArmaPc/procesadores.php';
         } else {
-            echo "<script> location.href='http://localhost/proyecto-poo/ArmaPc/index'; </script>";
+            echo "<script> location.href='http://localhost/web/ArmaPc/index'; </script>";
         }
     }
 
@@ -66,7 +66,7 @@ class ArmaPcController {
 
             require_once 'views/ArmaPc/board.php';
         } else {
-            echo "<script> location.href='http://localhost/proyecto-poo/ArmaPc/index'; </script>";
+            echo "<script> location.href='http://localhost/web/ArmaPc/index'; </script>";
         }
     }
 
@@ -84,7 +84,7 @@ class ArmaPcController {
 
             require_once 'views/ArmaPc/ram.php';
         } else {
-            echo "<script> location.href='http://localhost/proyecto-poo/ArmaPc/index'; </script>";
+            echo "<script> location.href='http://localhost/web/ArmaPc/index'; </script>";
         }
     }
 
@@ -142,7 +142,7 @@ class ArmaPcController {
         if (isset($_GET['id'])) {
             $producto_id = $_GET['id'];
         } else {
-            echo "<script> location.href='http://localhost/proyecto-poo/Armapc/index'; </script>";
+            echo "<script> location.href='http://localhost/web/Armapc/index'; </script>";
         }
 
         if (isset($_SESSION['carrito'])) {
@@ -171,7 +171,7 @@ class ArmaPcController {
                 );
             }
         }
-        echo "<script> location.href='http://localhost/proyecto-poo/ArmaPc/board&marca=" . $marca . "&page=1'; </script>";
+        echo "<script> location.href='http://localhost/web/ArmaPc/board&marca=" . $marca . "&page=1'; </script>";
     }
 
     public function seleccionBoard() {
@@ -179,7 +179,7 @@ class ArmaPcController {
         if (isset($_GET['id'])) {
             $producto_id = $_GET['id'];
         } else {
-            echo "<script> location.href='http://localhost/proyecto-poo/Armapc/index'; </script>";
+            echo "<script> location.href='http://localhost/web/Armapc/index'; </script>";
         }
 
         if (isset($_SESSION['carrito'])) {
@@ -208,7 +208,7 @@ class ArmaPcController {
                 );
             }
         }
-        echo "<script> location.href='http://localhost/proyecto-poo/ArmaPc/ram&socket=" . $socket . "&page=1'; </script>";
+        echo "<script> location.href='http://localhost/web/ArmaPc/ram&socket=" . $socket . "&page=1'; </script>";
     }
 
     public function seleccionRam() {
@@ -216,7 +216,7 @@ class ArmaPcController {
         if (isset($_GET['id'])) {
             $producto_id = $_GET['id'];
         } else {
-            echo "<script> location.href='http://localhost/proyecto-poo/Armapc/index'; </script>";
+            echo "<script> location.href='http://localhost/web/Armapc/index'; </script>";
         }
 
         if (isset($_SESSION['carrito'])) {
@@ -245,7 +245,7 @@ class ArmaPcController {
                 );
             }
         }
-        echo "<script> location.href='http://localhost/proyecto-poo/ArmaPc/discoDuroMecanico&page=1'; </script>";
+        echo "<script> location.href='http://localhost/web/ArmaPc/discoDuroMecanico&page=1'; </script>";
     }
 
     public function seleccionDDMecanico() {
@@ -253,7 +253,7 @@ class ArmaPcController {
         if (isset($_GET['id'])) {
             $producto_id = $_GET['id'];
         } else {
-            echo "<script> location.href='http://localhost/proyecto-poo/Armapc/index'; </script>";
+            echo "<script> location.href='http://localhost/web/Armapc/index'; </script>";
         }
 
         if (isset($_SESSION['carrito'])) {
@@ -282,7 +282,7 @@ class ArmaPcController {
                 );
             }
         }
-        echo "<script> location.href='http://localhost/proyecto-poo/ArmaPc/discoDuroSolido&page=1'; </script>";
+        echo "<script> location.href='http://localhost/web/ArmaPc/discoDuroSolido&page=1'; </script>";
     }
 
     public function seleccionDDSolido() {
@@ -290,7 +290,7 @@ class ArmaPcController {
         if (isset($_GET['id'])) {
             $producto_id = $_GET['id'];
         } else {
-            echo "<script> location.href='http://localhost/proyecto-poo/Armapc/index'; </script>";
+            echo "<script> location.href='http://localhost/web/Armapc/index'; </script>";
         }
 
         if (isset($_SESSION['carrito'])) {
@@ -319,7 +319,7 @@ class ArmaPcController {
                 );
             }
         }
-        echo "<script> location.href='http://localhost/proyecto-poo/ArmaPc/tarjetaGrafica&page=1'; </script>";
+        echo "<script> location.href='http://localhost/web/ArmaPc/tarjetaGrafica&page=1'; </script>";
     }
 
     public function seleccionGrafica() {
@@ -327,7 +327,7 @@ class ArmaPcController {
         if (isset($_GET['id'])) {
             $producto_id = $_GET['id'];
         } else {
-            echo "<script> location.href='http://localhost/proyecto-poo/Armapc/index'; </script>";
+            echo "<script> location.href='http://localhost/web/Armapc/index'; </script>";
         }
 
         if (isset($_SESSION['carrito'])) {
@@ -356,7 +356,7 @@ class ArmaPcController {
                 );
             }
         }
-        echo "<script> location.href='http://localhost/proyecto-poo/ArmaPc/chazis&page=1'; </script>";
+        echo "<script> location.href='http://localhost/web/ArmaPc/chazis&page=1'; </script>";
     }
 
 

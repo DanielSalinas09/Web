@@ -30,15 +30,15 @@ class adminController extends usuarioController {
 
                 if ($save) {
                     $_SESSION['register'] = "complete";
-                    echo "<script> location.href='http://localhost/proyecto-poo/cliente/registro'; </script>";
+                    echo "<script> location.href='http://localhost/web/cliente/registro'; </script>";
                 }
             } else {
                 $_SESSION['register'] = "failed";
-                echo "<script> location.href='http://localhost/proyecto-poo/cliente/registro'; </script>";
+                echo "<script> location.href='http://localhost/web/cliente/registro'; </script>";
             }
         } else {
             $_SESSION['register'] = "failed";
-            echo "<script> location.href='http://localhost/proyecto-poo/cliente/registro'; </script>";
+            echo "<script> location.href='http://localhost/web/cliente/registro'; </script>";
         }
     }
 

@@ -14,7 +14,7 @@ abstract class usuarioController{
     }
 
     public function registro() {//registro para usuarios 
-        echo "<script> location.href='http://localhost/proyecto-poo/cliente/registro'; </script>";
+        echo "<script> location.href='http://localhost/web/cliente/registro'; </script>";
     }
     // public function registroAdmin() {//eliminar esto  se registra a nivel de DB tener en cuenta
     //     //eliminar el metoddo del modelo y de la vista 
@@ -46,7 +46,7 @@ abstract class usuarioController{
 
         }
 
-        echo "<script> location.href='http://localhost/proyecto-poo/productos/index'; </script>";
+        echo "<script> location.href='http://localhost/web/productos/index'; </script>";
     }
 
     public function logout() {
@@ -60,7 +60,7 @@ abstract class usuarioController{
         if (isset($_SESSION['carrito'])) {
             unset($_SESSION['carrito']);
         }
-        echo "<script> location.href='http://localhost/proyecto-poo/productos/index'; </script>";
+        echo "<script> location.href='http://localhost/web/productos/index'; </script>";
     }
 
 

@@ -17,7 +17,7 @@ class carritoController {
         if (isset($_GET['id'])) {
             $producto_id = $_GET['id'];
         } else {
-            echo "<script> location.href='http://localhost/proyecto-poo/producto/index'; </script>";
+            echo "<script> location.href='http://localhost/web/producto/index'; </script>";
         }
 
         if (isset($_SESSION['carrito'])) {
@@ -49,12 +49,12 @@ class carritoController {
             }
         }
 
-        echo "<script> location.href='http://localhost/proyecto-poo/carrito/index'; </script>";
+        echo "<script> location.href='http://localhost/web/carrito/index'; </script>";
     }
 
     public function delete_all() {
         unset($_SESSION['carrito']);
-        echo "<script> location.href='http://localhost/proyecto-poo/carrito/index'; </script>";
+        echo "<script> location.href='http://localhost/web/carrito/index'; </script>";
     }
 
     public function remove() {
@@ -62,7 +62,7 @@ class carritoController {
             $index = $_GET['index'];
             unset($_SESSION['carrito'][$index]);
         }
-        echo "<script> location.href='http://localhost/proyecto-poo/carrito/index'; </script>";
+        echo "<script> location.href='http://localhost/web/carrito/index'; </script>";
     }
 
     public function up() {
@@ -70,7 +70,7 @@ class carritoController {
             $index = $_GET['index'];
             $_SESSION['carrito'][$index]['unidades'] ++;
         }
-        echo "<script> location.href='http://localhost/proyecto-poo/carrito/index'; </script>";
+        echo "<script> location.href='http://localhost/web/carrito/index'; </script>";
     }
 
     public function down() {
@@ -81,7 +81,7 @@ class carritoController {
                 unset($_SESSION['carrito'][$index]);
             }
         }
-        echo "<script> location.href='http://localhost/proyecto-poo/carrito/index'; </script>";
+        echo "<script> location.href='http://localhost/web/carrito/index'; </script>";
     }
 
 
