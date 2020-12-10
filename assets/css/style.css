@@ -354,10 +354,14 @@ button{
 }
 
 
+
+
 /*PRODUCTOS*/
+
 .product{
     width: 30%;
     float:left;
+    
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 30px;
@@ -399,6 +403,9 @@ button{
     margin-bottom: 10px;
 }
 
+/*AQUI VA EL CODIGO CSS QUE QUITE*/
+
+
 #detail-product{
     width: 100%;
 
@@ -433,6 +440,13 @@ button{
     text-align: center;
     width: 200px; 
 }
+
+
+
+
+
+
+
 .vacio p{
     padding: 31px;
     margin-top: 16px;

@@ -100,9 +100,7 @@
                 <li>
                     <a href="<?= base_url ?>pedidos/gestion&page=1"><button type="button" class="btn btn-outline-primary">gestionar pedidos</button></a>
                 </li> 
-                <li>
-                     <a href="<?= base_url ?>admin/registroAdmin"> <button type="button" class="btn btn-outline-primary" >CrearAdmin</button></a>
-                </li>
+                
                 <li>
                     <a href="<?= base_url ?>admin/destacados"> <button type="button" class="btn btn-outline-primary" >Usuarios Destacados</button></a>
                 </li>
@@ -120,7 +118,10 @@
 
             <?php else: ?>
                 <li>
-                    <a href="<?= base_url ?>cliente/registro"><button type="button" class="btn btn-outline-primary">Registrate aqui</button></a>
+                    <a href="<?= base_url ?>cliente/registro"><button type="button" class="btn btn-outline-primary">Registrate Usuario</button></a>
+                </li>
+                <li>
+                     <a href="<?= base_url ?>admin/registroAdmin"> <button type="button" class="btn btn-outline-primary" >Registro de Vendedor</button></a>
                 </li>
 
             <?php endif; ?>
