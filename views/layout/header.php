@@ -32,17 +32,11 @@
                         <li>
                             <a href="<?= base_url ?><?= controler_default ?>/<?= action_default ?>" >inicio</a>
                         </li>  
-                        <li class="submenu">
-                            <a>PC <span class="caret icon-arrow-down6"></span></a> 
-                            <ul>
-                                <li><a href="<?= base_url ?>categorias/ver&id=1&page=1" >Pc gama de entrada</a></li>
-                                <li><a href="<?= base_url ?>categorias/ver&id=2&page=1" >Pc gama media</a></li>
-                                <li><a href="<?= base_url ?>categorias/ver&id=3&page=1" >Pc gama alta</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="<?= base_url ?>ArmaPc/index">Arma tu pc</a></li>
+                        
+                        <li><a href="#">Ventas</a></li>
+                        <li><a href="#">Subastas</a></li>
                         <li>
-                            <a>Productos</a>
+                            <a>categorias</a>
                             <ul>
                                 <li><a href="<?= base_url ?>categorias/ver&id=5&page=1" >Procesadores</a></li>
                                 <li>
