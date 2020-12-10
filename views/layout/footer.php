@@ -59,7 +59,7 @@
                 <div class="container-footer">
                     <div class="footer2">
                         <div class="copyright">
-                            desarrollado por martin jimenez, daniel salinas &COPY; 20<?= date('y') ?>
+                            desarrollado por Martin Jimenez, Daniel Salinas, Hernan Escorcia &COPY; 20<?= date('y') ?>
                         </div>
                         <div class="politica">
                             <a href="">condiciones de uso</a>|
