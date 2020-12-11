@@ -3,6 +3,23 @@
 require_once 'models/producto.php';
 
 class productosController{
+    public function inicio()
+    {
+        if (isset($_POST) & isset($_POST['search'])) {
+            $search = $_POST['search'];
+
+            $producto = new producto();
+            $productos = $producto->search($search);
+            require_once 'views/producto/ventas.php';
+        } else {
+
+
+            $producto = new producto();
+            $productos = $producto->getAll();
+
+            require_once 'views/producto/ventas.php';
+        } 
+    }
 
     public function index() {
         if (isset($_POST) & isset($_POST['search'])) {

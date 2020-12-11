@@ -40,7 +40,7 @@
 <?php endif; ?>
 
 <?php if ($productos->num_rows != 0): ?>
-
+<div class="container-product">
     <?php while ($pro = $productos->fetch_object()): ?>
         <!--contenido --->
         
@@ -60,7 +60,7 @@
 
         </div>
     <?php endwhile; ?>
-
+</div>
 <?php else: ?>
     <h2>no hay resultados de la busqueda <?= $_POST['search'] ?> </h2>
 

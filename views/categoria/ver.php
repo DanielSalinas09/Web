@@ -9,6 +9,7 @@
         
         
     <?php else: ?>
+        <div class="container-product">
         <?php while ($pro = $productos[2]->fetch_object()): ?>
             <div class = "product">
                 <a href="<?= base_url ?>productos/ver&id=<?= $pro->id ?>">
@@ -27,6 +28,7 @@
 
             </div>
         <?php endwhile; ?>
+    </div>
     <?php endif; ?>
 <?php else: ?>
     <h1>la categoria no existes</h1>

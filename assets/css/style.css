@@ -1,5 +1,7 @@
 /*GENERALES*/
-
+:root{
+    --colorPrincipal: #cc3333;
+}
 *{
     padding: 0px;
     margin: 0px;
@@ -357,11 +359,13 @@ button{
 
 
 /*PRODUCTOS*/
+.container-product{
+    display: flex;
+    flex-wrap: wrap;
 
+}
 .product{
     width: 30%;
-    float:left;
-    
     margin: 30px 10px 30px 10px;
     text-align: center;
 }

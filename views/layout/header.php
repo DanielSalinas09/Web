@@ -9,18 +9,19 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <script src="http://code.jquery.com/jquery-latest.js"></script>
 
-        <title>cyberShop</title>
+        <title>subastas.com</title>
     </head>
     <body>
         <div id="container">
             <!-- header --->
             <header id ="header"> 
+            <a href="<?= base_url ?><?= controler_default ?>/<?= action_default ?>">
                 <div id="logo">
-                    <img src="<?= base_url ?>assets/img/logo.jpg" alt="cyberShop">
-                    <a href="<?= base_url ?><?= controler_default ?>/<?= action_default ?>">
-                        CyberShop
-                    </a>
+                    
+                    <img src="<?= base_url ?>assets/img/logo.png" alt="cyberShop">
+
                 </div>
+            </a>
 
             </header>
 
@@ -33,7 +34,7 @@
                             <a href="<?= base_url ?><?= controler_default ?>/<?= action_default ?>" >inicio</a>
                         </li>  
                         
-                        <li><a href="#">Ventas</a></li>
+                        <li><a href="<?= base_url?><?= controler_default?>/inicio">Ventas</a></li>
                         <li><a href="#">Subastas</a></li>
                         <li>
                             <a>categorias</a>
@@ -56,7 +57,7 @@
                                 <li><a href="<?= base_url ?>categorias/ver&id=11&page=1" >Fuente de poder</a></li>
                             </ul>
                         </li>
-                        <li><a href="<?= base_url ?>categorias/ver&id=4&page=1">Laptos</a></li>
+                        
 
                         <li> 
                             <form action="<?=base_url?>productos/index" class="form-inline my-2 my-lg-0" style="padding: 10px; margin-left:600px;" method="post">
