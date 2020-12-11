@@ -45,11 +45,16 @@
         
         <td><?=$pro->id;?></td>
         <td><?=$pro->nombre;?></td>
-        <td><?=$pro->precio;?></td>
-        <?php if($pro->stock <= 0 ):?>
-        <td class="alert_red">Agotado</td>
+        <?php if(!is_null($pro->oferta)): ?>
+            <td><?=$pro->precio - ($pro->precio * $pro->oferta/100);?></td>
         <?php else:?>
-        <td><?=$pro->stock;?></td>
+            <td><?=$pro->precio;?></td>
+        <?php endif;?>
+
+        <?php if($pro->stock <= 0 ):?>
+            <td class="alert_red">Agotado</td>
+        <?php else:?>
+            <td><?=$pro->stock;?></td>
         <?php endif;?>
         
         <td>
