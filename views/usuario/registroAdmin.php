@@ -1,4 +1,4 @@
-<h1>Registrar Administrador</h1>
+<h1>Registrar Vendedor</h1>
 <?php if(isset($_SESSION['register']) && $_SESSION['register']=="complete"): ?>
 
 
